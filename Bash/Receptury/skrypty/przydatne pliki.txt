@@ -1,0 +1,5 @@
+1. Znajdowanie duplikatow rozsianych po roznych folderach:
+        find . -type f -exec basename "{}" \; | sort | uniq -d
+
+2. wyszukiwanie danych w kolunach np listowanie procesow ps
+        ps -l | awk '{print $4}' # wyswietli PID

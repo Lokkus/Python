@@ -1,0 +1,9 @@
+  W tym wierszu występuje początkowy znak spacji.
+W tym wierszu występuje końcowy znak spacji.
+ W tym wierszu występuje zarówno początkowy, jak i końcowy znak spacji.
+    --> Początkowy tabulator.
+Końcowy tabulator. -->
+    --> Początkowy i końcowy tabulator. -->
+        --> Początkowe znaki spacji i tabulatora.
+Końcowe znaki spacji i tabulatora.      -->
+        --> Początkowe i końcowe znaki spacji i tabulatora.     -->

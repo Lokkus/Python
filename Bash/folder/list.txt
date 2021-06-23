@@ -1,0 +1,7 @@
+"/net/8k3/e0fs01/irods/PLKRA-PROJECTS/ADCAM/7-Tools/ADCAM/JOS/conti_validation/DPW-471/lists/DPW-471_0001.txt"
+"/net/8k3/e0fs01/irods/PLKRA-PROJECTS/ADCAM/7-Tools/ADCAM/JOS/conti_validation/DPW-471/lists/DPW-471_0002.txt"
+"/net/8k3/e0fs01/irods/PLKRA-PROJECTS/ADCAM/7-Tools/ADCAM/JOS/conti_validation/DPW-471/lists/DPW-471_0003.txt"
+"/net/8k3/e0fs01/irods/PLKRA-PROJECTS/ADCAM/7-Tools/ADCAM/JOS/conti_validation/DPW-471/lists/DPW-471_0004.txt"
+"/net/8k3/e0fs01/irods/PLKRA-PROJECTS/ADCAM/7-Tools/ADCAM/JOS/conti_validation/DPW-471/lists/DPW-471_0005.txt"
+"/net/8k3/e0fs01/irods/PLKRA-PROJECTS/ADCAM/7-Tools/ADCAM/JOS/conti_validation/DPW-471/lists/DPW-471_0006.txt"
+"/net/8k3/e0fs01/irods/PLKRA-PROJECTS/ADCAM/7-Tools/ADCAM/JOS/conti_validation/DPW-471/lists/DPW-471_0007.txt"
