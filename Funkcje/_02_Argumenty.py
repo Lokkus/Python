@@ -105,4 +105,11 @@ def dowolna_liczba_argumentow_test_2():
     #dow_licz_arg(l)
     dow_licz_arg(d)
     #dow_licz_arg(a, d)
-    
+
+
+if __name__ == '__main__':
+    #argumenty_modyfikowalne_test()
+    #zwracanie_kilku_argumentow_test()
+    #slowa_kluczowe_test()
+    #dowolna_liczba_argumentow_test()
+    dowolna_liczba_argumentow_test_2()

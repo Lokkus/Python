@@ -92,4 +92,8 @@ def implementacja_zip_map_2():
 
 
     
-
+if __name__ == '__main__':
+    #przyklad_generatora_test()
+    #przyklad_generatora_send_test()
+    implementacja_zip_map()
+    #implementacja_zip_map_2()

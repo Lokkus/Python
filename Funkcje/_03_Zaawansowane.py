@@ -56,3 +56,7 @@ def lambda_test():
     l = list(filter((lambda x: x%2), range(-5, 5)))
     print(l)
 
+if __name__ == '__main__':
+    rekurencja_test()
+    posrednie_wywolanie_funkcji_test()
+    lambda_test()

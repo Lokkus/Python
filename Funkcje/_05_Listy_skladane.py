@@ -8,6 +8,11 @@ def zagniezdzenia():
     # znowu pierwsze
     p = [i for i in range(2, 10) if all(j % i for j in range(2, i))]
     print(p)
+    
+    
+if __name__ == '__main__':
+    zagniezdzenia()
+    
 
 
 

@@ -81,3 +81,13 @@ def nonlocal_inna_wersja(start):
 def nonlocal_inna_wersja_test():
     f = nonlocal_inna_wersja(12)
     f('ala ma kota')
+
+if __name__ == '__main__':
+    przyklad_funkcji()
+    zakres_globalny()
+    zakres_globalny_2()
+    pokaz_x()
+    f_fabryczne_test()
+    zakresy_zagniezdzone_lambda_test()
+    zmienne_nonlocal_test()
+    nonlocal_inna_wersja_test()
