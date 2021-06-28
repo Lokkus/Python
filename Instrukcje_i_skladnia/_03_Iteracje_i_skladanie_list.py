@@ -54,6 +54,13 @@ def filter_test():
     l2 = list(filter(fun_filter, l))
     print(l2)
 
+if __name__ == '__main__':
+    #wczytanie_tresci_pliku_z_uzyciem_iteratora()
+    #iterowanie()
+    #listy_skladane_1()
+    #print(fun_filter(10))
+    filter_test()
+
 
 
 

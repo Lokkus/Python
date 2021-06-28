@@ -56,6 +56,13 @@ def enumerate_test():
     E = enumerate(s)
     print(next(E)) # nomanie enumerate zwraca obiekt generatora
 
+if __name__ == '__main__':
+    petla_while()
+    petla_for()
+    print(test_dla_map(5))
+    zip_i_map()
+    enumerate_test()
+
 
 
 
