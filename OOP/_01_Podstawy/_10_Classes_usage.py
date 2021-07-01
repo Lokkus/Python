@@ -215,3 +215,10 @@ def wypisywanie_atrybutow_test():
     class C (ListInstance):pass
     x = C()
     x.a = 1; x.b = 2; x.c = 3
+
+if __name__ == '__main__':
+    #projektowanie_z_uzyciem_klas()
+    #zwiazek_jest_test()
+    #atrybuty_pseudoprywatne_test()
+    #metody_zwiazane_test()
+    wypisywanie_atrybutow_test()
