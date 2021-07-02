@@ -36,3 +36,8 @@ def third_class_test():
     b.display()
     t.mul(3)
     print(t)
+
+if __name__ == '__main__':
+    first_class_test()
+    second_class_test()
+    third_class_test()

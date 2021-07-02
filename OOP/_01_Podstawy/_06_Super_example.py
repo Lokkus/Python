@@ -21,3 +21,6 @@ def temp_test():
     klasa_b = B(11, 22)
     klasa_b.fun()
     super(B, klasa_b.fun())
+
+if __name__ == '__main__':
+    temp_test()

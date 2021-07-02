@@ -47,3 +47,7 @@ def realistyczny_przyklad_test_2():
     # narzedzia do introspekcji
     print(tom.__class__.__name__)
     print(list(tom.__dict__.keys()))
+
+if __name__ == '__main__':
+    #realistyczny_przyklad_test()
+    realistyczny_przyklad_test_2()

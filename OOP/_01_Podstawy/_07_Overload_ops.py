@@ -61,6 +61,7 @@ class Squares:
 def test_squares():
     for i in Squares(1, 5):
         print(i, end=' ')
+
 #####################################################################################################################
 # test przynaleznosci
 class Iters:
@@ -145,3 +146,4 @@ def callee_test():
     c = Callee()
     c(1,2,3)
     c([2, 3, 4], 'ala ma kota', x = 123, y={5: 'piec'})
+

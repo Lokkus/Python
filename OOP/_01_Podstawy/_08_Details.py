@@ -60,3 +60,8 @@ def klasy_abstrakcyjne_test():
     s = Sup()
     sp = Super()
 
+if __name__ == '__main__':
+    #wywolywanie_danych_z_klasy()
+    #wywolywanie_konstruktorow_z_klasy_nadrzednej()
+    klasy_abstrakcyjne_test()
+

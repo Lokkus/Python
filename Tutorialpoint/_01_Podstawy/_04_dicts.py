@@ -13,7 +13,7 @@ def fromkeys_fun():
     print(d1)
 
 def items_fun():
-    d1 = {'Name': 'Marcin', 'Surname': 'Kubicz', 'Age': 39, 'Phone': 795013798}
+    d1 = {'Name': 'Marcin', 'Surname': 'Mediator', 'Age': 39, 'Phone': 555666777}
     for key, val in d1.items():
         print(f'Key: {key}, Val: {val}')
 
