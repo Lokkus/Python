@@ -42,6 +42,23 @@ def numpy_argmax_argmin_test():
     print(f'Applying argmin() function: {np.argmin(a)}')
     print(f'Flattened array: {a.flatten()[np.argmin(a)]}')
 
+def numpy_nonzero_test():
+    a = np.array([[30, 0, 40], [0, 40, 50], [90, 40, 0]])
+    print(f'Array:\n {a}')
+    print(f'Nonzero indices: {a.nonzero()}')
+
+def numpy_where_test():
+    a = np.arange(9.).reshape(3, 3)
+    print(f'Array:\n{a}')
+    print(f'Indices, where element > 3\n{np.where(a > 3)}')
+    print(f'Use these indices to get element satisfying the condition\n{a[np.where(a > 3)]}')
+
+def numpy_extract_test():
+    a = np.arange(9.).reshape(3, 3)
+    print(f'Array:\n{a}')
+    condition = np.mod(a, 2) == 0
+    print(f'Element-wise value of condition\n{condition}')
+    print(f'Extract elements using condition\n{np.extract(condition, a)}')
 
 if __name__ == '__main__':
     #a = np.array([[3, 7], [9, 1]])
@@ -49,4 +66,7 @@ if __name__ == '__main__':
     #numpy_sort_test(a, axis=1)
     #numpy_argsort_test()
     #numpy_lexsort_test()
-    numpy_argmax_argmin_test()
+    #numpy_argmax_argmin_test()
+    #numpy_nonzero_test()
+    #numpy_where_test()
+    numpy_extract_test()
