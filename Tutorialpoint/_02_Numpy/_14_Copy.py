@@ -1,4 +1,7 @@
 import numpy as np
+import jira
+
+
 
 def numpy_no_copy_test():
     a = np.arange(6)
