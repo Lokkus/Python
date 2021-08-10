@@ -10,5 +10,7 @@ def numpy_matlib_test():
     print('Create eye matrix')
     print(np.eye(3, 4, 0, dtype=float))
 
+    print(np.matrix('1,2; 3,4'))
+
 if __name__ == '__main__':
     numpy_matlib_test()
