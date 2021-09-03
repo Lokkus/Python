@@ -37,7 +37,20 @@ def numpy_matmul_test():
     b = [[4, 1], [2, 2]]
     print(np.matmul(a, b))
 
+def numpy_determinant():
+    a = np.array([[6, 1, 1], [4, -2, 5], [2, 8, 7]])
+    print(a)
+    print(np.linalg.det(a))
+
+def numpy_solve():
+    a = np.array([[1, 1, 1], [0, 2, 5], [2, 5, -1]])
+    b = np.array([6, -4, 27])
+    print(np.linalg.solve(a, b))
+
+
 if __name__ == '__main__':
     #numpy_dot_test()
     #numpy_vdot_test()
-    numpy_matmul_test()
+    #numpy_matmul_test()
+    #numpy_determinant()
+    numpy_solve()
