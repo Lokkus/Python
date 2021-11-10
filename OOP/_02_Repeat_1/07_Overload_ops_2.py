@@ -32,7 +32,36 @@ def test_radd():
     print(2 + y)
     print(x + y)
 
+    x +=1
+    print(x)
+
 #####################################################
+class Callee:
+    def __call__(self, *args, **kwargs):
+        print(f'Wywolanie {args}, {kwargs}')
+
+
+def test_call():
+    c = Callee()
+    c(1, 2, 3, x=4, y=5)
+#####################################################
+class Del:
+    def __init__(self, name):
+        self.name = name
+        print(name)
+
+    def __del__(self):
+        print('__del__')
+
+def test_del():
+    d = Del('Marian')
+    d = 'MK'
+
+#####################################################
+
+
 if __name__ == '__main__':
     #test_add()
-    test_radd()
+    #test_radd()
+    #test_call()
+    test_del()
