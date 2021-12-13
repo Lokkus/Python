@@ -41,7 +41,7 @@ def square(arg):
 
 class Sum:
     def __init__(self, val):
-        self.val =val
+        self.val = val
 
     def __call__(self, arg):
         return self.val + arg
