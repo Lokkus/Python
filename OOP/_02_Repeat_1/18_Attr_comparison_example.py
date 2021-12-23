@@ -103,8 +103,9 @@ def test_get_attribute():
     X.square = 7
     print(X.square)
 
+
 if __name__ == '__main__':
     #test_property_function()
     #test_descriptions()
-    test_get_set_attr()
+    #test_get_set_attr()
     test_get_attribute()
